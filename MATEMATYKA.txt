@@ -1,0 +1,113 @@
+dodawanie
+algebra
+algorytm
+analiza
+kąt
+arytmetyka
+koło
+kombinatoryka
+stała
+ciągłość
+zbieżność
+cotangens
+krzywa
+przekątna
+dzielenie
+równanie
+wzór
+fraktal
+funkcja
+geometria
+grupa
+całka
+całkowanie
+długość
+linia
+matematyka
+macierz
+mnożenie
+liczba
+płaszczyzna
+punkt
+wielomian
+iloczyn
+dowód
+czworokąt
+retrakt
+pierwiastek
+reguła
+szereg
+zbiór
+sinus
+kwadrat
+podzbiór
+odejmowanie
+tangens
+tensor
+trapez
+trójkąt
+trygonometria
+zmienna
+wektor
+wartość bezwzględna
+wyraz wolny wyrażenia
+wartość bezwzględna
+punkt izolowany
+algebra abstrakcyjna
+algebra liniowa
+kąt ostry
+kąt położenia
+kąt przyległy
+kąt rozwarty
+kąt płaski
+kąt prosty
+kategoria abelowa
+układ współrzędnych
+kartezjański układ współrzędnych
+równanie różniczkowe
+wartość własna macierzy
+wektor własny,
+równanie całkowe,
+funkcja bessela
+funkcja beta
+funkcja ciągła
+funkcja sześcienna
+funkcja elementarna
+funkcja eksponencjalna
+funkcja gamma
+funkcja hiperboliczna
+funkcja liniowa
+funkcja okresowa
+funkcja potęgowa
+funkcja kwadratowa
+funkcja specjalna
+funkcja trygonometryczna
+figura geometryczna
+macierz diagonalny
+macierz hermitowska
+macierz jednostkowa
+macierz odwrotna
+macierz ortagonalny
+macierz kwadratowa
+macierz trójkątna
+macierz jednostkowa
+liczba zespolona
+liczba parzysta
+liczba urojona
+liczba całkowita
+liczba naturalna
+liczba nieparzysta
+liczba pierwsza
+liczba wymierna
+liczba rzeczywista
+teoria liczb
+grupa abelowa
+oś rzędnych
+iloczyn wektorowy
+iloczyn skalarny
+dowód nie wprost
+twierdznie pitagorasa
+zbiór otwarty
+teoria mnogości
+trójkąt równoboczny
+trójkąt równoramienny

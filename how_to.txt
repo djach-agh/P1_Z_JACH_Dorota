@@ -1,0 +1,24 @@
+1.Uruchomienie gry:
+Program ma formę gry słownej składającej sie z 4 rund i finału dla lepszego gracza. Aby rozpocząć grę należy uruchomić plik Python-projekt.py przy pomocy kompilatora , a następnie użyć przycisku Start.
+Kod został stworzony w programie PyScripter.
+
+2.Wczytywanie danych:
+Program wczytuje słowa i dłuższe sentencje z plików txt do list opisanych poszczególnymi kategoriami, z których następnie będą losowane słowa do odgadywania poszczególnych liter.
+Gracz wpisuje swoje imię, zgadywane litery lub całe hasło do osobnego okienka. Na tej podstawie przyznawane są punkty graczom. Punkty są losowane z puli 0 do 1000 
+przy użyciu biblioteki random.Istnieje moliwość wybrania ilość graczy od 1 do 2 poprzez wybór odpowiedniego przycisku.Oprócz tego program wpisuje wyniki z datą i nazwą gracza,
+który wygrał finał do pliku WYNIKI.txt oraz wyświetla 6 ostatnich wyników.
+
+3.Przebieg gry:
+Gra rozpoczyna się od wyboru liczby graczy. Jeśli gra jeden użytkownik to drugim graczem jest komputer, który w razie pomyłki gracza pierwszego losuje litery z listy alfabet oraz 
+zdobywa za nie punkty.Jeśli gra dwóch graczy to oni wpisują litery. Gracz zgaduje do pierwszej pomyłki, po pomyłce litery zgaduje przeciwnik. Na początek losowane są kategorie
+gry oraz na podstawie rundy wybierana jest trudność równoważna z długością słowa.Agorytm sprawdza czy podane litery znajdują się w słowie oraz czy nie ma ich już w liście z 
+odkrytymi literami.Istnieje możliwość przerwania rundy poprzez wpisanie całego hasła lub litery q.Wpisanie całego hasła zeruje punkty przeciwnika i zwiększa liczbę punktów o 1000
+Działanie programu opiera się na pętlach while i for. Na podstawie spełnienia warunków określonych przez if-y przydziela się punkty oraz zmienia widok okienek Gui.Pojawiają się
+odpowiednie komunikaty dla użytkownika o liczbie punktów oraz wystąpieniu litery.Sprawdzane jest również czy litera jest spółgłoską czy samogłoską , za samogłoski są punkty ujemne.
+Do finału przechodzi gracz z większą liczbą punktów.Następnie losowana jest kategoria.Finał polega na odgadywaniu na przemian z komputerem 4 liter.Komputer losuje litery z sentencji. Na koniec należy wpisać hasło małymi literami z użyciem polskich znaków
+i pojedynczych spacji.Wynik zwycięzcy zostaje zapisany w pliku txt.Jeśli gracz nie zgadnie hasła wyświetla mu się inny interfejs niż zwycięzcy.
+
+4.Produkcja wyników:
+Wyniki są tworzone głównie na podstawie biblioteki random oraz datetime, wizualizacja wyników powstaje przy użyciu biblioteki tkinter.
+Kilka teł wykorzystuje obrazki wcześniej wgenerowane przy pomocy biblioteki wordcloud ,imageio i pathlib.
+

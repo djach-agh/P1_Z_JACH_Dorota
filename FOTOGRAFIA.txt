@@ -1,0 +1,31 @@
+detekcja twarzy
+detekcja uśmiechu
+głębia ostrości
+ptasia perspektywa
+lustrzanka
+matówka
+migawka
+obiektyw
+przysłona
+teleobiektyw
+blenda
+statyw
+autofocus
+samowyzwalacz
+zoom
+paralaksa
+winietowanie
+kadrowanie
+retusz
+ciemnia
+klisza
+negatyw
+odbitka
+ekspozycja
+makrofotografia
+ogniskowa
+aparat fotograficzny
+aparat kompaktowy
+obiektyw stałoogniskowy
+obiektyw szerokokątny
+obiektyw zmiennoogniskowy
