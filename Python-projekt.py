@@ -349,7 +349,7 @@ while runda<5:
 
         else:
             if litera  in b and litera!="":
-                if litera not in lista:
+                if litera.upper() not in lista:
                     for i in range(0,len(b)):
                         if b[i]==litera:
                             del lista[i]
@@ -359,7 +359,7 @@ while runda<5:
                     sGui.title('Koło Fortuny')
                     sLabel=tk.Label(text=kat,font=('Courier',15,'bold')).place(x=270,y=100)
                     sLabel=tk.Label(text=(f'Gracz1: {punkty} p                     Gracz2: {punkty_komputer1} p'),font=('Courier',17,'bold')).place(x=70,y=700)
-                    sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ2,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
+                    sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ1,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
                     sbutton=tk.Button(text='DALEJ',command=zamknij,width=19,height=3,font=('Courier',12,'bold'),background='orange',borderwidth=4).place(x=300,y=650)
                     sLabel=tk.Label(text=(f'{lista}\n'),font=('Courier',17,'bold')).pack(anchor='center',side='bottom',expand=YES)
                     if litera in samogłoski:
@@ -386,12 +386,14 @@ while runda<5:
                 sLabel=tk.Label(text=kat,font=('Courier',15,'bold')).place(x=270,y=100)
                 sLabel=tk.Label(text=(f'Gracz1: {punkty} p                     Gracz2: {punkty_komputer1} p'),font=('Courier',17,'bold')).place(x=70,y=700)
                 sLabel=tk.Label(text=(f'{lista}\n'),font=('Courier',17,'bold')).pack(anchor='center',side='bottom',expand=YES)
-                sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ2,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
+
                 if j==1:
+                    sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ1,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
                     literak=alfabet[random.randrange(0,len(alfabet))]
                     sLabel=tk.Label(text=(f'Komputer zgaduje :{literak}'),font=('Courier',16,'bold')).place(x=270,y=450)
                     sbutton=tk.Button(text='DALEJ',command=zamknij,width=19,height=3,font=('Courier',12,'bold'),background='orange',borderwidth=4).place(x=300,y=650)
                 if j==2:
+                    sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ2,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
                     root=Tk()
                     root.geometry('600x100+860+550')
                     root.title('GRACZ2-   PODAJ LITERĘ   (CAŁE HASŁO  LUB q PRZERYWAJĄ RUNDĘ)')
@@ -433,14 +435,14 @@ while runda<5:
                     break
 
 
-                while literak in b and literak!="" and literak not in lista:
+                while literak in b and literak!="" and literak.upper() not in lista:
                     sGui=Tk()
                     sGui.geometry('800x800+1+1')
                     sGui.title('Koło Fortuny')
                     sLabel=tk.Label(text=kat,font=('Courier',15,'bold')).place(x=270,y=100)
                     sLabel=tk.Label(text=(f'Gracz1: {punkty} p                     Gracz2: {punkty_komputer1} p'),font=('Courier',17,'bold')).place(x=70,y=700)
                     sbutton=tk.Button(text='DALEJ',command=zamknij,width=19,height=3,font=('Courier',12,'bold'),background='orange',borderwidth=4).place(x=300,y=650)
-                    sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ2,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
+                    sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ1,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
                     sLabel=tk.Label(text=(f'{lista}\n'),font=('Courier',17,'bold')).pack(anchor='center',side='bottom',expand=YES)
 
                     if literak not in lista:
@@ -479,12 +481,14 @@ while runda<5:
                         sLabel=tk.Label(text=kat,font=('Courier',15,'bold')).place(x=270,y=100)
                         sLabel=tk.Label(text=(f'Gracz1: {punkty} p                     Gracz2: {punkty_komputer1} p'),font=('Courier',17,'bold')).place(x=70,y=700)
                         sLabel=tk.Label(text=(f'{lista}\n'),font=('Courier',17,'bold')).pack(anchor='center',side='bottom',expand=YES)
-                        sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ2,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
+
                         if j==1:
+                            sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ1,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
                             literak=alfabet[random.randrange(0,len(alfabet))]
                             sLabel=tk.Label(text=(f'Komputer zgaduje :{literak}'),font=('Courier',16,'bold')).place(x=270,y=450)
                             sbutton=tk.Button(text='DALEJ',command=zamknij,width=19,height=3,font=('Courier',12,'bold'),background='orange',borderwidth=4).place(x=300,y=650)
                         if j==2:
+                            sbutton=tk.Button(text='ZAKOŃCZ GRĘ',command=zakończ2,width=12,height=2,font=('Courier',8,'bold'),background='pink').pack(side='right',anchor='n')
                             root=Tk()
                             root.geometry('600x100+860+550')
                             root.title('GRACZ2 -   PODAJ LITERĘ   (CAŁE HASŁO  LUB q PRZERYWAJĄ RUNDĘ)')
